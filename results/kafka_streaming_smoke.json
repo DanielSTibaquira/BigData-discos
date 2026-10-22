@@ -1,0 +1,75 @@
+{
+  "topic": "backblaze-drives-sample",
+  "sample_dates": [
+    "2026-04-01",
+    "2026-04-02",
+    "2026-04-03",
+    "2026-04-04",
+    "2026-04-05",
+    "2026-04-06",
+    "2026-04-07"
+  ],
+  "events_published": 28754,
+  "source_sample_fraction": 0.1,
+  "weight_per_event": 10.0,
+  "source_offsets_committed": {
+    "partition_0": 9589,
+    "partition_1": 9482,
+    "partition_2": 9683
+  },
+  "window_duration": "7 days",
+  "watermark": "2 days",
+  "session_timezone": "UTC",
+  "shuffle_partitions": 8,
+  "aggregates": [
+    {
+      "window_start": "2026-03-26T00:00:00Z",
+      "window_end": "2026-04-02T00:00:00Z",
+      "model": "ST12000NM0008",
+      "drive_days": 18040.0,
+      "failures": 0.0,
+      "afr_percent": 0.0
+    },
+    {
+      "window_start": "2026-03-26T00:00:00Z",
+      "window_end": "2026-04-02T00:00:00Z",
+      "model": "HGST HUH721212ALN604",
+      "drive_days": 9870.0,
+      "failures": 10.0,
+      "afr_percent": 36.9807497467
+    },
+    {
+      "window_start": "2026-03-26T00:00:00Z",
+      "window_end": "2026-04-02T00:00:00Z",
+      "model": "ST8000NM0055",
+      "drive_days": 13630.0,
+      "failures": 0.0,
+      "afr_percent": 0.0
+    },
+    {
+      "window_start": "2026-04-02T00:00:00Z",
+      "window_end": "2026-04-09T00:00:00Z",
+      "model": "ST12000NM0008",
+      "drive_days": 111310.0,
+      "failures": 10.0,
+      "afr_percent": 3.2791303567
+    },
+    {
+      "window_start": "2026-04-02T00:00:00Z",
+      "window_end": "2026-04-09T00:00:00Z",
+      "model": "ST8000NM0055",
+      "drive_days": 77290.0,
+      "failures": 0.0,
+      "afr_percent": 0.0
+    },
+    {
+      "window_start": "2026-04-02T00:00:00Z",
+      "window_end": "2026-04-09T00:00:00Z",
+      "model": "HGST HUH721212ALN604",
+      "drive_days": 57400.0,
+      "failures": 0.0,
+      "afr_percent": 0.0
+    }
+  ],
+  "verified": true
+}

@@ -1,0 +1,117 @@
+{
+  "archive": "D:\\Uni\\BigData\\Octubre24\\data\\data_Q2_2026.zip",
+  "sample_dates": [
+    "2026-04-01",
+    "2026-04-02",
+    "2026-04-03",
+    "2026-04-04",
+    "2026-04-05",
+    "2026-04-06",
+    "2026-04-07",
+    "2026-04-08",
+    "2026-04-09",
+    "2026-04-10",
+    "2026-04-11",
+    "2026-04-12",
+    "2026-04-13",
+    "2026-04-14"
+  ],
+  "sample_files": [
+    "2026-04-01.csv",
+    "2026-04-02.csv",
+    "2026-04-03.csv",
+    "2026-04-04.csv",
+    "2026-04-05.csv",
+    "2026-04-06.csv",
+    "2026-04-07.csv",
+    "2026-04-08.csv",
+    "2026-04-09.csv",
+    "2026-04-10.csv",
+    "2026-04-11.csv",
+    "2026-04-12.csv",
+    "2026-04-13.csv",
+    "2026-04-14.csv"
+  ],
+  "daily_counts": [
+    {
+      "date": "2026-04-01",
+      "rows": 345738,
+      "failures": 14
+    },
+    {
+      "date": "2026-04-02",
+      "rows": 345603,
+      "failures": 10
+    },
+    {
+      "date": "2026-04-03",
+      "rows": 345377,
+      "failures": 10
+    },
+    {
+      "date": "2026-04-04",
+      "rows": 345143,
+      "failures": 9
+    },
+    {
+      "date": "2026-04-05",
+      "rows": 345596,
+      "failures": 10
+    },
+    {
+      "date": "2026-04-06",
+      "rows": 346134,
+      "failures": 15
+    },
+    {
+      "date": "2026-04-07",
+      "rows": 346375,
+      "failures": 40
+    },
+    {
+      "date": "2026-04-08",
+      "rows": 346361,
+      "failures": 31
+    },
+    {
+      "date": "2026-04-09",
+      "rows": 346647,
+      "failures": 28
+    },
+    {
+      "date": "2026-04-10",
+      "rows": 346549,
+      "failures": 27
+    },
+    {
+      "date": "2026-04-11",
+      "rows": 346658,
+      "failures": 19
+    },
+    {
+      "date": "2026-04-12",
+      "rows": 347458,
+      "failures": 10
+    },
+    {
+      "date": "2026-04-13",
+      "rows": 347380,
+      "failures": 15
+    },
+    {
+      "date": "2026-04-14",
+      "rows": 347188,
+      "failures": 21
+    }
+  ],
+  "models": 79,
+  "serial_observations": {
+    "serials": 348619,
+    "min_observed_days": 1,
+    "max_observed_days": 14,
+    "mean_observed_days": 13.906892624899962
+  },
+  "rdd_matches_dataframe": true,
+  "afr_formula": "(failures * 365 / drive_days) * 100",
+  "results_csv": "D:\\Uni\\BigData\\Octubre24\\results\\afr_por_modelo.csv"
+}
