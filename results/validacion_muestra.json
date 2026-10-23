@@ -1,5 +1,5 @@
 {
-  "archive": "D:\\Uni\\BigData\\Octubre24\\data\\data_Q2_2026.zip",
+  "archive": "C:\\Users\\dally\\Desktop\\discos\\BigData-discos\\data\\data_Q2_2026.zip",
   "sample_dates": [
     "2026-04-01",
     "2026-04-02",
@@ -113,5 +113,5 @@
   },
   "rdd_matches_dataframe": true,
   "afr_formula": "(failures * 365 / drive_days) * 100",
-  "results_csv": "D:\\Uni\\BigData\\Octubre24\\results\\afr_por_modelo.csv"
+  "results_csv": "C:\\Users\\dally\\Desktop\\discos\\BigData-discos\\results\\afr_por_modelo.csv"
 }

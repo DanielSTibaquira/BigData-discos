@@ -6,3 +6,10 @@ __pycache__/
 .venv/
 venv/
 .env
+
+data/*.zip
+data/*.csv
+.venv/
+__pycache__/
+*.chk
+checkpoints/

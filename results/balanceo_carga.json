@@ -19,87 +19,111 @@
   "models_aggregated": 79,
   "spark_version": "4.2.0",
   "master": "local[*]",
-  "default_parallelism": 8,
+  "default_parallelism": 12,
   "timed_aggregation": "DataFrame groupBy, equivalent to part A RDD aggregation",
   "warmups_per_partition_count": 1,
   "timings": [
     {
       "partitions": 2,
       "repetition": 1,
-      "elapsed_seconds": 1.8345983999970485,
+      "elapsed_seconds": 1.089763299911283,
       "models": 79
     },
     {
       "partitions": 2,
       "repetition": 2,
-      "elapsed_seconds": 1.7413793000014266,
+      "elapsed_seconds": 0.9313411000184715,
+      "models": 79
+    },
+    {
+      "partitions": 2,
+      "repetition": 3,
+      "elapsed_seconds": 0.9453208999475464,
       "models": 79
     },
     {
       "partitions": 8,
       "repetition": 1,
-      "elapsed_seconds": 1.664070200000424,
+      "elapsed_seconds": 0.7488362999865785,
       "models": 79
     },
     {
       "partitions": 8,
       "repetition": 2,
-      "elapsed_seconds": 1.7109335999994073,
+      "elapsed_seconds": 0.7662146000657231,
+      "models": 79
+    },
+    {
+      "partitions": 8,
+      "repetition": 3,
+      "elapsed_seconds": 0.8622232999186963,
       "models": 79
     },
     {
       "partitions": 32,
       "repetition": 1,
-      "elapsed_seconds": 2.9546141999999236,
+      "elapsed_seconds": 1.263755900086835,
       "models": 79
     },
     {
       "partitions": 32,
       "repetition": 2,
-      "elapsed_seconds": 2.910794799998257,
+      "elapsed_seconds": 1.2746602999977767,
+      "models": 79
+    },
+    {
+      "partitions": 32,
+      "repetition": 3,
+      "elapsed_seconds": 1.2863706999924034,
       "models": 79
     },
     {
       "partitions": 200,
       "repetition": 1,
-      "elapsed_seconds": 13.29453889999786,
+      "elapsed_seconds": 6.0387916000327095,
       "models": 79
     },
     {
       "partitions": 200,
       "repetition": 2,
-      "elapsed_seconds": 12.85507189999771,
+      "elapsed_seconds": 6.075703499955125,
+      "models": 79
+    },
+    {
+      "partitions": 200,
+      "repetition": 3,
+      "elapsed_seconds": 5.992588000022806,
       "models": 79
     }
   ],
   "timing_summary": [
     {
       "partitions": 2,
-      "repeats": 2,
-      "median_seconds": 1.7879888499992376,
-      "min_seconds": 1.7413793000014266,
-      "max_seconds": 1.8345983999970485
+      "repeats": 3,
+      "median_seconds": 0.9453208999475464,
+      "min_seconds": 0.9313411000184715,
+      "max_seconds": 1.089763299911283
     },
     {
       "partitions": 8,
-      "repeats": 2,
-      "median_seconds": 1.6875018999999156,
-      "min_seconds": 1.664070200000424,
-      "max_seconds": 1.7109335999994073
+      "repeats": 3,
+      "median_seconds": 0.7662146000657231,
+      "min_seconds": 0.7488362999865785,
+      "max_seconds": 0.8622232999186963
     },
     {
       "partitions": 32,
-      "repeats": 2,
-      "median_seconds": 2.9327044999990903,
-      "min_seconds": 2.910794799998257,
-      "max_seconds": 2.9546141999999236
+      "repeats": 3,
+      "median_seconds": 1.2746602999977767,
+      "min_seconds": 1.263755900086835,
+      "max_seconds": 1.2863706999924034
     },
     {
       "partitions": 200,
-      "repeats": 2,
-      "median_seconds": 13.074805399997786,
-      "min_seconds": 12.85507189999771,
-      "max_seconds": 13.29453889999786
+      "repeats": 3,
+      "median_seconds": 6.0387916000327095,
+      "min_seconds": 5.992588000022806,
+      "max_seconds": 6.075703499955125
     }
   ],
   "partition_distribution": {
